@@ -9,20 +9,20 @@
       
       
       
-        <link rel="shortcut icon" href="./assets/images/favicon.png">
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
       
       <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.6.4">
     
     
       
-        <title>Colonel By Computer Science</title>
+        <title>Recursion - Colonel By Computer Science</title>
       
     
     
-      <script src="./assets/javascripts/modernizr-1df76c4e58.js"></script>
+      <script src="../assets/javascripts/modernizr-1df76c4e58.js"></script>
     
     
-      <link rel="stylesheet" href="./assets/stylesheets/application-e2807e330f.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application-e2807e330f.css">
       
     
     
@@ -59,7 +59,7 @@
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <a href="." title="Colonel By Computer Science" class="md-icon md-icon--home md-header-nav__button">
+          <a href=".." title="Colonel By Computer Science" class="md-icon md-icon--home md-header-nav__button">
           </a>
         
       </div>
@@ -72,7 +72,7 @@
             
               
             
-            Home
+            Recursion
           
         </span>
       </div>
@@ -135,6 +135,18 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -145,22 +157,57 @@
       
     
     
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
-    </a>
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Recursion
+      </label>
     
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="recursion/" title="Recursion" class="md-nav__link">
+    <a href="./" title="Recursion" class="md-nav__link md-nav__link--active">
       Recursion
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example" title="Example" class="md-nav__link">
+    Example
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#explanation" title="Explanation" class="md-nav__link">
+    Explanation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-problems" title="Practice problems" class="md-nav__link">
+    Practice problems
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -181,6 +228,40 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example" title="Example" class="md-nav__link">
+    Example
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#explanation" title="Explanation" class="md-nav__link">
+    Explanation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-problems" title="Practice problems" class="md-nav__link">
+    Practice problems
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -192,21 +273,28 @@
               
                 
                 
-                <h1 id="welcome-to-colonel-by-cs-docs">Welcome to Colonel By CS Docs</h1>
-<p>Introduction</p>
-<p>Competitive programming is very fun and not hard at all to get into. It gives a great feeling of satisfaction upon answering a question correctly. We have only been practicing for half a year and are already quite experienced. If you find it interesting and put in the work, you can easily be top level competitors (CCO)</p>
-<p>We all use both C++ and Python when solving problems. The two languages we would most recommend are C++ and Java. C++ has much less verbose syntax and is thus faster to write in most cases.</p>
-<p>This is the order in which we learned concepts. There is no perfect order to follow, however some topics are much easier when you know others.</p>
-<p>Implementation (become familiar and comfortable with a language)
-Recursion
-Understanding basic graph theory and Breadth First Search/Depth First Search
-Greedy algorithms
-Dynamic Programming
-Single Source Shortest Path (Dijkstra’s and Bellman-Ford)
-Learn about different containers (learn standard libraries, they’re very powerful)
-Minimum Spanning Trees
-Data Structures (Binary Indexed Tree, Segment Tree, Binary Search Tree)
-Max flow MIN CUT LEMMA WOOOOO MATHEMATICS</p>
+                <h1 id="recursion">Recursion</h1>
+<p><img alt="recursion" src="https://i.stack.imgur.com/CLwKE.jpg" /></p>
+<p>Recursion is a fundamental concept that is incredibly useful in competitive programming. It is commonly used to solve problems in graph theory and implemented in algorithms such as <a href="../dfs-bfs">depth and beadth first search</a>. Recursion also provides a very simple and straightforward way of thinking about <a href="../dp">dynamic programming</a>. Recursion is very powerful and necessary for many problems.</p>
+<p>The idea with recursion is that a function will be called, but in order to return a value it relies on the same function being called. It will continue to “wait” until a base case is reached, where afterwards all of the other functions can return values.</p>
+<h2 id="example">Example</h2>
+<p>A common example is a recursive solution to finding the nth Fibonacci number</p>
+<pre><code class="python">fib(n) {
+    if (n == 0 || n == 1)
+        return 1
+    return fib(n-1) + fib(n-2)
+}
+</code></pre>
+
+<h3 id="explanation">Explanation</h3>
+<p>This function begins with the parameter <code>n</code>, the answer in the first call of the function depends on the previous two Fibonacci numbers since <code>fib(n) = fib(n-1) + fib(n-2)</code>. This means that the function will be executed again to solve for these two numbers, since none of these numbers are known yet, it will continue calling this function until the base case is reached. In mathematical terms, the Fibonacci sequence is based on a formula that is based on the first and second terms. In math class you have probably learned about such recursive sequences, the value of the next term depends on the current term or terms.</p>
+<h2 id="practice-problems">Practice problems</h2>
+<ul>
+<li><a href="https://dmoj.ca/problem/ccc13s3">CCC '13 S3 - Chances of Winning</a></li>
+<li><a href="https://dmoj.ca/problem/vmss7wc16c4p2">VM7WC '16 #4 Silver - Tests or Test Cases?</a></li>
+<li><a href="https://dmoj.ca/problem/ccc96s3">CCC '96 S3 - Pattern Generator</a></li>
+<li><a href="https://dmoj.ca/problem/ccc03s3">CCC '03 S3 - Floor Plan</a> *<em>includes graph theory</em></li>
+</ul>
                 
                   
                 
@@ -225,20 +313,20 @@ Max flow MIN CUT LEMMA WOOOOO MATHEMATICS</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-        
-          <a href="recursion/" title="Recursion" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
-                  Next
+                  Previous
                 </span>
-                Recursion
+                Home
               </span>
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
           </a>
+        
         
       </nav>
     </div>
@@ -262,8 +350,8 @@ Max flow MIN CUT LEMMA WOOOOO MATHEMATICS</p>
       
     </div>
     
-      <script src="./assets/javascripts/application-06a3e72efd.js"></script>
-      <script>app.initialize({url:{base:"."}})</script>
+      <script src="../assets/javascripts/application-06a3e72efd.js"></script>
+      <script>app.initialize({url:{base:".."}})</script>
       
     
     
