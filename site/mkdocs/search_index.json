@@ -37,7 +37,7 @@
         },
         {
             "location": "/dp/",
-            "text": "Dynamic Programming\n\n\nDynamic Programming is a very important topic in competitive programming, showing up often on contests. Dynamic Programming simply means the use of \nsubproblems\n in order to solve a larger problem. This involves calculating and storing the result of the correct answer for a certain subproblem and reusing it when combined with other subproblems.\n\n\nImplementation\n\n\nA simple example of the effectiveness of DP is when computing the \nn\nth Fibonacci number.\n\n\nRecursive approach\n\n\nA naive recursive solution would need to calculate \nfib(x)\n every single time \nfib(x)\n is called for every number \nx\n, making the approach extremely slow when \nn\n is large.\n\n\nfib\n(\nn\n)\n \n{\n\n\nif\n \n(\nn\n \n==\n \n0\n \n||\n \nn\n \n==\n \n1\n)\n\n    \nreturn\n \n1\n\n\nreturn\n \nfib\n(\nn\n-\n1\n)\n \n+\n \nfib\n(\nn\n-\n2\n)\n \n// We are calculating fib(n-2) every time\n\n\n\n\n\n\nDP approach\n\n\nA solution using dynamic programming just stores the results of the Fibonacci numbers after being computed, treating \nfib(n-1)\n as the subproblem.\n\n\nmemo\n \n=\n \n{}\n \n//dictionary, map or array\n\n\n\nfib\n(\nn\n)\n \n{\n\n\nif\n \n(\nmemo\n[\nn\n]\n \n!=\n \n-\n1\n)\n \n// It has already been calculateed\n\n    \nreturn\n \nmemo\n[\nn\n]\n\n\nif\n \n(\nn\n \n==\n \n0\n \n||\n \nn\n \n==\n \n1\n)\n\n    \nreturn\n \n1\n\n\ntoReturn\n \n=\n \nfib\n(\nn\n-\n1\n)\n \n+\n \nfib\n(\nn\n-\n2\n)\n\n\nmemo\n[\nn\n]\n \n=\n \ntoReturn\n \n//After calculating the result, store it for later use\n\n\nreturn\n \ntoReturn\n\n\n\n\n\n\nThis solution now ensures that you no longer need to recalculate results that you have already made, saving a lot of time when solving multiple queries.\n\n\nIn dynamic programming, the subproblems often involve finding the solution for a prefix, suffix or subset of an array or set of numbers.\n\n\nResources\n\n\nGreat resources for learning dynamic programming by MIT Open Courseware:\n- \nDynamic Programming I\n\n- \nDynamic Programming II\n\n- \nDynamic Programming III\n\n\nMore advanced concepts with bitmasking\n- \nHackerEarth DP Bitmasking",
+            "text": "Dynamic Programming\n\n\nDynamic Programming is a very important topic in competitive programming, showing up often on contests. Dynamic Programming simply means the use of \nsubproblems\n in order to solve a larger problem. This involves calculating and storing the result of the correct answer for a certain subproblem and reusing it when combined with other subproblems.\n\n\nImplementation\n\n\nA simple example of the effectiveness of DP is when computing the \nn\nth Fibonacci number.\n\n\nRecursive approach\n\n\nA naive recursive solution would need to calculate \nfib(x)\n every single time \nfib(x)\n is called for every number \nx\n, making the approach extremely slow when \nn\n is large.\n\n\nfib\n(\nn\n)\n \n{\n\n\nif\n \n(\nn\n \n==\n \n0\n \n||\n \nn\n \n==\n \n1\n)\n\n    \nreturn\n \n1\n\n\nreturn\n \nfib\n(\nn\n-\n1\n)\n \n+\n \nfib\n(\nn\n-\n2\n)\n \n// We are calculating fib(n-2) every time\n\n\n\n\n\n\nDP approach\n\n\nA solution using dynamic programming just stores the results of the Fibonacci numbers after being computed, treating \nfib(n-1)\n as the subproblem.\n\n\nmemo\n \n=\n \n{}\n \n//dictionary, map or array\n\n\n\nfib\n(\nn\n)\n \n{\n\n\nif\n \n(\nmemo\n[\nn\n]\n \n!=\n \n-\n1\n)\n \n// It has already been calculateed\n\n    \nreturn\n \nmemo\n[\nn\n]\n\n\nif\n \n(\nn\n \n==\n \n0\n \n||\n \nn\n \n==\n \n1\n)\n\n    \nreturn\n \n1\n\n\ntoReturn\n \n=\n \nfib\n(\nn\n-\n1\n)\n \n+\n \nfib\n(\nn\n-\n2\n)\n\n\nmemo\n[\nn\n]\n \n=\n \ntoReturn\n \n//After calculating the result, store it for later use\n\n\nreturn\n \ntoReturn\n\n\n\n\n\n\nThis solution now ensures that you no longer need to recalculate results that you have already made, saving a lot of time when solving multiple queries.\n\n\nIn dynamic programming, the subproblems often involve finding the solution for a prefix, suffix or subset of an array or set of numbers.\n\n\nResources\n\n\nGreat resources for learning dynamic programming by MIT Open Courseware\n\n\n\n\nDynamic Programming I\n\n\nDynamic Programming II\n\n\nDynamic Programming III\n\n\n\n\nMore advanced concepts with bitmasking\n\n\n\n\nHackerEarth DP Bitmasking",
             "title": "Dynamic Programming"
         },
         {
@@ -62,8 +62,18 @@
         },
         {
             "location": "/dp/#resources",
-            "text": "Great resources for learning dynamic programming by MIT Open Courseware:\n-  Dynamic Programming I \n-  Dynamic Programming II \n-  Dynamic Programming III  More advanced concepts with bitmasking\n-  HackerEarth DP Bitmasking",
+            "text": "",
             "title": "Resources"
+        },
+        {
+            "location": "/dp/#great-resources-for-learning-dynamic-programming-by-mit-open-courseware",
+            "text": "Dynamic Programming I  Dynamic Programming II  Dynamic Programming III",
+            "title": "Great resources for learning dynamic programming by MIT Open Courseware"
+        },
+        {
+            "location": "/dp/#more-advanced-concepts-with-bitmasking",
+            "text": "HackerEarth DP Bitmasking",
+            "title": "More advanced concepts with bitmasking"
         },
         {
             "location": "/graph/",

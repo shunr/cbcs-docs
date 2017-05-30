@@ -38,12 +38,12 @@ This solution now ensures that you no longer need to recalculate results that yo
 In dynamic programming, the subproblems often involve finding the solution for a prefix, suffix or subset of an array or set of numbers.
 
 ## Resources
-Great resources for learning dynamic programming by MIT Open Courseware:
+#### Great resources for learning dynamic programming by MIT Open Courseware
 - [Dynamic Programming I](https://www.youtube.com/watch?v=OQ5jsbhAv_M)
 - [Dynamic Programming II](https://www.youtube.com/watch?v=ENyox7kNKeY)
 - [Dynamic Programming III](https://www.youtube.com/watch?v=ocZMDMZwhCY)
 
-More advanced concepts with bitmasking
+#### More advanced concepts with bitmasking
 - [HackerEarth DP Bitmasking](https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/)
 
 
