@@ -2,7 +2,7 @@
 
 ![recursion](https://i.stack.imgur.com/CLwKE.jpg)
 
-Recursion is a fundamental concept that is incredibly useful in competitive programming. It is commonly used to solve problems in graph theory and implemented in algorithms such as [depth and beadth first search](graph.md). Recursion also provides a very simple and straightforward way of thinking about [dynamic programming](dp). Recursion is very powerful and necessary for many problems.
+Recursion is a fundamental concept that is incredibly useful in competitive programming. It is commonly used to solve problems in graph theory and implemented in algorithms such as [depth and beadth first search](graph). Recursion also provides a very simple and straightforward way of thinking about [dynamic programming](dp). Recursion is very powerful and necessary for many problems.
 
 The idea with recursion is that a function will be called, but in order to return a value it relies on the same function being called. It will continue to “wait” until a base case is reached, where afterwards all of the other functions can return values.
 

@@ -124,6 +124,7 @@ DFS(start,end,path) {
 In many cases, you are trying to find the shortest path from a single source to a destination given that each edge between nodes have different lengths or **weights**. This common problem, often known as finding the *Single Source Shortest Path*, can be solved using Dijkstra's algorithm.
 
 ### MIT OpenCourseware
+Watch this, then try [Single Source Shortest Path](https://dmoj.ca/problem/sssp).
 [![ocw dijkstras](https://img.youtube.com/vi/2E7MmKv0Y24/0.jpg)](https://www.youtube.com/watch?v=2E7MmKv0Y24)
 
 ### Implementation
@@ -149,4 +150,11 @@ def dijkstras(Graph, weights, source):
 			if distances[v2] > newd:
 				distances[v2] = newd
   return distances
+```
 
+## Practice Problems
+- [VM7WC '16 #3 Silver - Can Shahir even get there?!](https://dmoj.ca/problem/vmss7wc16c3p2)
+- [CCC '01 S3 - Strategic Bombing](https://dmoj.ca/problem/ccc01s3)
+- [CCC '13 S4 - Who is Taller?](https://dmoj.ca/problem/ccc13s4)
+- [CCC '10 J5 - Knight Hop](https://dmoj.ca/problem/ccc10j5)
+- [Pursuit of Knowledge](https://dmoj.ca/problem/gfssoc1j5)

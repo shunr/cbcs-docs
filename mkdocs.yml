@@ -4,4 +4,7 @@ pages:
     - Recursion: recursion.md
     - Dynamic Programming: dp.md
     - Graph Theory: graph.md
+    - Ad Hoc: adhoc.md
 theme: material
+markdown_extensions:
+  - codehilite
