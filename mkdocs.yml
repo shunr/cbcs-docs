@@ -2,4 +2,5 @@ site_name: Colonel By Computer Science
 pages:
     - Home: index.md
     - Recursion: recursion.md
+    - Dynamic Programming: dp.md
 theme: material

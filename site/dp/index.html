@@ -9,20 +9,20 @@
       
       
       
-        <link rel="shortcut icon" href="./assets/images/favicon.png">
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
       
       <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.6.4">
     
     
       
-        <title>Colonel By Computer Science</title>
+        <title>Dynamic Programming - Colonel By Computer Science</title>
       
     
     
-      <script src="./assets/javascripts/modernizr-1df76c4e58.js"></script>
+      <script src="../assets/javascripts/modernizr-1df76c4e58.js"></script>
     
     
-      <link rel="stylesheet" href="./assets/stylesheets/application-e2807e330f.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application-e2807e330f.css">
       
     
     
@@ -59,7 +59,7 @@
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <a href="." title="Colonel By Computer Science" class="md-icon md-icon--home md-header-nav__button">
+          <a href=".." title="Colonel By Computer Science" class="md-icon md-icon--home md-header-nav__button">
           </a>
         
       </div>
@@ -72,7 +72,7 @@
             
               
             
-            Home
+            Dynamic Programming
           
         </span>
       </div>
@@ -135,6 +135,30 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../recursion/" title="Recursion" class="md-nav__link">
+      Recursion
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -145,34 +169,64 @@
       
     
     
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
-    </a>
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Dynamic Programming
+      </label>
     
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="recursion/" title="Recursion" class="md-nav__link">
-      Recursion
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="dp/" title="Dynamic Programming" class="md-nav__link">
+    <a href="./" title="Dynamic Programming" class="md-nav__link md-nav__link--active">
       Dynamic Programming
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" title="Implementation" class="md-nav__link">
+    Implementation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recursive-approach" title="Recursive approach" class="md-nav__link">
+    Recursive approach
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dp-approach" title="DP approach" class="md-nav__link">
+    DP approach
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -193,6 +247,47 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" title="Implementation" class="md-nav__link">
+    Implementation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recursive-approach" title="Recursive approach" class="md-nav__link">
+    Recursive approach
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dp-approach" title="DP approach" class="md-nav__link">
+    DP approach
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -204,21 +299,41 @@
               
                 
                 
-                <h1 id="welcome-to-colonel-by-cs-docs">Welcome to Colonel By CS Docs</h1>
-<p>Introduction</p>
-<p>Competitive programming is very fun and not hard at all to get into. It gives a great feeling of satisfaction upon answering a question correctly. We have only been practicing for half a year and are already quite experienced. If you find it interesting and put in the work, you can easily be top level competitors (CCO)</p>
-<p>We all use both C++ and Python when solving problems. The two languages we would most recommend are C++ and Java. C++ has much less verbose syntax and is thus faster to write in most cases.</p>
-<p>This is the order in which we learned concepts. There is no perfect order to follow, however some topics are much easier when you know others.</p>
-<p>Implementation (become familiar and comfortable with a language)
-Recursion
-Understanding basic graph theory and Breadth First Search/Depth First Search
-Greedy algorithms
-Dynamic Programming
-Single Source Shortest Path (Dijkstra’s and Bellman-Ford)
-Learn about different containers (learn standard libraries, they’re very powerful)
-Minimum Spanning Trees
-Data Structures (Binary Indexed Tree, Segment Tree, Binary Search Tree)
-Max flow MIN CUT LEMMA WOOOOO MATHEMATICS</p>
+                <h1 id="dynamic-programming">Dynamic Programming</h1>
+<p>Dynamic Programming is a very important topic in competitive programming, showing up often on contests. Dynamic Programming simply means the use of <strong>subproblems</strong> in order to solve a larger problem. This involves calculating and storing the result of the correct answer for a certain subproblem and reusing it when combined with other subproblems.</p>
+<h2 id="implementation">Implementation</h2>
+<p>A simple example of the effectiveness of DP is when computing the <code>n</code>th Fibonacci number.</p>
+<h3 id="recursive-approach">Recursive approach</h3>
+<p>A naive recursive solution would need to calculate <code>fib(x)</code> every single time <code>fib(x)</code> is called for every number <code>x</code>, making the approach extremely slow when <code>n</code> is large.</p>
+<pre><code class="cpp">fib(n) {
+if (n == 0 || n == 1)
+    return 1
+return fib(n-1) + fib(n-2) // We are calculating fib(n-2) every time
+</code></pre>
+
+<h3 id="dp-approach">DP approach</h3>
+<p>A solution using dynamic programming just stores the results of the Fibonacci numbers after being computed, treating <code>fib(n-1)</code> as the subproblem.</p>
+<pre><code class="cpp">memo = {} //dictionary, map or array
+
+fib(n) {
+if (memo[n] != -1) // It has already been calculateed
+    return memo[n]
+if (n == 0 || n == 1)
+    return 1
+toReturn = fib(n-1) + fib(n-2)
+memo[n] = toReturn //After calculating the result, store it for later use
+return toReturn
+</code></pre>
+
+<p>This solution now ensures that you no longer need to recalculate results that you have already made, saving a lot of time when solving multiple queries.</p>
+<p>In dynamic programming, the subproblems often involve finding the solution for a prefix, suffix or subset of an array or set of numbers.</p>
+<h2 id="resources">Resources</h2>
+<p>Great resources for learning dynamic programming by MIT Open Courseware:
+- <a href="https://www.youtube.com/watch?v=OQ5jsbhAv_M">Dynamic Programming I</a>
+- <a href="https://www.youtube.com/watch?v=ENyox7kNKeY">Dynamic Programming II</a>
+- <a href="https://www.youtube.com/watch?v=ocZMDMZwhCY">Dynamic Programming III</a></p>
+<p>More advanced concepts with bitmasking
+- <a href="https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/">HackerEarth DP Bitmasking</a></p>
                 
                   
                 
@@ -237,20 +352,20 @@ Max flow MIN CUT LEMMA WOOOOO MATHEMATICS</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-        
-          <a href="recursion/" title="Recursion" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../recursion/" title="Recursion" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
-                  Next
+                  Previous
                 </span>
                 Recursion
               </span>
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
           </a>
+        
         
       </nav>
     </div>
@@ -274,8 +389,8 @@ Max flow MIN CUT LEMMA WOOOOO MATHEMATICS</p>
       
     </div>
     
-      <script src="./assets/javascripts/application-06a3e72efd.js"></script>
-      <script>app.initialize({url:{base:"."}})</script>
+      <script src="../assets/javascripts/application-06a3e72efd.js"></script>
+      <script>app.initialize({url:{base:".."}})</script>
       
     
     

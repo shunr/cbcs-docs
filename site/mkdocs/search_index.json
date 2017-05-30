@@ -12,7 +12,7 @@
         },
         {
             "location": "/recursion/",
-            "text": "Recursion\n\n\n\n\nRecursion is a fundamental concept that is incredibly useful in competitive programming. It is commonly used to solve problems in graph theory and implemented in algorithms such as \ndepth and beadth first search\n. Recursion also provides a very simple and straightforward way of thinking about \ndynamic programming\n. Recursion is very powerful and necessary for many problems.\n\n\nThe idea with recursion is that a function will be called, but in order to return a value it relies on the same function being called. It will continue to \u201cwait\u201d until a base case is reached, where afterwards all of the other functions can return values.\n\n\nExample\n\n\nA common example is a recursive solution to finding the nth Fibonacci number\n\n\nfib(n) {\n    if (n == 0 || n == 1)\n        return 1\n    return fib(n-1) + fib(n-2)\n}\n\n\n\n\nExplanation\n\n\nThis function begins with the parameter \nn\n, the answer in the first call of the function depends on the previous two Fibonacci numbers since \nfib(n) = fib(n-1) + fib(n-2)\n. This means that the function will be executed again to solve for these two numbers, since none of these numbers are known yet, it will continue calling this function until the base case is reached. In mathematical terms, the Fibonacci sequence is based on a formula that is based on the first and second terms. In math class you have probably learned about such recursive sequences, the value of the next term depends on the current term or terms.\n\n\nPractice problems\n\n\n\n\nCCC '13 S3 - Chances of Winning\n\n\nVM7WC '16 #4 Silver - Tests or Test Cases?\n\n\nCCC '96 S3 - Pattern Generator\n\n\nCCC '03 S3 - Floor Plan\n *\nincludes graph theory",
+            "text": "Recursion\n\n\n\n\nRecursion is a fundamental concept that is incredibly useful in competitive programming. It is commonly used to solve problems in graph theory and implemented in algorithms such as \ndepth and beadth first search\n. Recursion also provides a very simple and straightforward way of thinking about \ndynamic programming\n. Recursion is very powerful and necessary for many problems.\n\n\nThe idea with recursion is that a function will be called, but in order to return a value it relies on the same function being called. It will continue to \u201cwait\u201d until a base case is reached, where afterwards all of the other functions can return values.\n\n\nExample\n\n\nA common example is a recursive solution to finding the \nn\nth Fibonacci number\n\n\nfib(n) {\n    if (n == 0 || n == 1)\n        return 1\n    return fib(n-1) + fib(n-2)\n}\n\n\n\n\nExplanation\n\n\nThis function begins with the parameter \nn\n, the answer in the first call of the function depends on the previous two Fibonacci numbers since \nfib(n) = fib(n-1) + fib(n-2)\n. This means that the function will be executed again to solve for these two numbers, since none of these numbers are known yet, it will continue calling this function until the base case is reached. In mathematical terms, the Fibonacci sequence is based on a formula that is based on the first and second terms. In math class you have probably learned about such recursive sequences, the value of the next term depends on the current term or terms.\n\n\nPractice problems\n\n\n\n\nCCC '13 S3 - Chances of Winning\n\n\nVM7WC '16 #4 Silver - Tests or Test Cases?\n\n\nCCC '96 S3 - Pattern Generator\n\n\nCCC '03 S3 - Floor Plan\n *\nincludes graph theory",
             "title": "Recursion"
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "location": "/recursion/#example",
-            "text": "A common example is a recursive solution to finding the nth Fibonacci number  fib(n) {\n    if (n == 0 || n == 1)\n        return 1\n    return fib(n-1) + fib(n-2)\n}",
+            "text": "A common example is a recursive solution to finding the  n th Fibonacci number  fib(n) {\n    if (n == 0 || n == 1)\n        return 1\n    return fib(n-1) + fib(n-2)\n}",
             "title": "Example"
         },
         {
@@ -34,6 +34,36 @@
             "location": "/recursion/#practice-problems",
             "text": "CCC '13 S3 - Chances of Winning  VM7WC '16 #4 Silver - Tests or Test Cases?  CCC '96 S3 - Pattern Generator  CCC '03 S3 - Floor Plan  * includes graph theory",
             "title": "Practice problems"
+        },
+        {
+            "location": "/dp/",
+            "text": "Dynamic Programming\n\n\nDynamic Programming is a very important topic in competitive programming, showing up often on contests. Dynamic Programming simply means the use of \nsubproblems\n in order to solve a larger problem. This involves calculating and storing the result of the correct answer for a certain subproblem and reusing it when combined with other subproblems.\n\n\nImplementation\n\n\nA simple example of the effectiveness of DP is when computing the \nn\nth Fibonacci number.\n\n\nRecursive approach\n\n\nA naive recursive solution would need to calculate \nfib(x)\n every single time \nfib(x)\n is called for every number \nx\n, making the approach extremely slow when \nn\n is large.\n\n\nfib(n) {\nif (n == 0 || n == 1)\n    return 1\nreturn fib(n-1) + fib(n-2) // We are calculating fib(n-2) every time\n\n\n\n\nDP approach\n\n\nA solution using dynamic programming just stores the results of the Fibonacci numbers after being computed, treating \nfib(n-1)\n as the subproblem.\n\n\nmemo = {} //dictionary, map or array\n\nfib(n) {\nif (memo[n] != -1) // It has already been calculateed\n    return memo[n]\nif (n == 0 || n == 1)\n    return 1\ntoReturn = fib(n-1) + fib(n-2)\nmemo[n] = toReturn //After calculating the result, store it for later use\nreturn toReturn\n\n\n\n\nThis solution now ensures that you no longer need to recalculate results that you have already made, saving a lot of time when solving multiple queries.\n\n\nIn dynamic programming, the subproblems often involve finding the solution for a prefix, suffix or subset of an array or set of numbers.\n\n\nResources\n\n\nGreat resources for learning dynamic programming by MIT Open Courseware:\n- \nDynamic Programming I\n\n- \nDynamic Programming II\n\n- \nDynamic Programming III\n\n\nMore advanced concepts with bitmasking\n- \nHackerEarth DP Bitmasking",
+            "title": "Dynamic Programming"
+        },
+        {
+            "location": "/dp/#dynamic-programming",
+            "text": "Dynamic Programming is a very important topic in competitive programming, showing up often on contests. Dynamic Programming simply means the use of  subproblems  in order to solve a larger problem. This involves calculating and storing the result of the correct answer for a certain subproblem and reusing it when combined with other subproblems.",
+            "title": "Dynamic Programming"
+        },
+        {
+            "location": "/dp/#implementation",
+            "text": "A simple example of the effectiveness of DP is when computing the  n th Fibonacci number.",
+            "title": "Implementation"
+        },
+        {
+            "location": "/dp/#recursive-approach",
+            "text": "A naive recursive solution would need to calculate  fib(x)  every single time  fib(x)  is called for every number  x , making the approach extremely slow when  n  is large.  fib(n) {\nif (n == 0 || n == 1)\n    return 1\nreturn fib(n-1) + fib(n-2) // We are calculating fib(n-2) every time",
+            "title": "Recursive approach"
+        },
+        {
+            "location": "/dp/#dp-approach",
+            "text": "A solution using dynamic programming just stores the results of the Fibonacci numbers after being computed, treating  fib(n-1)  as the subproblem.  memo = {} //dictionary, map or array\n\nfib(n) {\nif (memo[n] != -1) // It has already been calculateed\n    return memo[n]\nif (n == 0 || n == 1)\n    return 1\ntoReturn = fib(n-1) + fib(n-2)\nmemo[n] = toReturn //After calculating the result, store it for later use\nreturn toReturn  This solution now ensures that you no longer need to recalculate results that you have already made, saving a lot of time when solving multiple queries.  In dynamic programming, the subproblems often involve finding the solution for a prefix, suffix or subset of an array or set of numbers.",
+            "title": "DP approach"
+        },
+        {
+            "location": "/dp/#resources",
+            "text": "Great resources for learning dynamic programming by MIT Open Courseware:\n-  Dynamic Programming I \n-  Dynamic Programming II \n-  Dynamic Programming III  More advanced concepts with bitmasking\n-  HackerEarth DP Bitmasking",
+            "title": "Resources"
         }
     ]
 }
