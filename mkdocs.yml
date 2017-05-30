@@ -1,4 +1,4 @@
 site_name: Colonel By Computer Science
 pages:
     - Home: index.md
-theme: cinder
+theme: material
