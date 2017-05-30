@@ -3,4 +3,5 @@ pages:
     - Home: index.md
     - Recursion: recursion.md
     - Dynamic Programming: dp.md
+    - Graph Theory: graph.md
 theme: material
