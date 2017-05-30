@@ -5,6 +5,9 @@ pages:
     - Dynamic Programming: dp.md
     - Graph Theory: graph.md
     - Ad Hoc: adhoc.md
+    - About: about.md
+    - STL Containers: stl.md
+    - Problem Solutions: solutions/index.md
 theme: material
 markdown_extensions:
   - codehilite
