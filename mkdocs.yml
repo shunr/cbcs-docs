@@ -1,4 +1,5 @@
 site_name: Colonel By Computer Science
 pages:
     - Home: index.md
+    - Recursion: recursion.md
 theme: material
