@@ -3,7 +3,7 @@ Here are a set of solutions to some common problems found on competitive program
 ## DMOJ
 Problem|Source|Language|Difficulty|
 ---|---|---|---|
-[anoisyclass](https://dmoj.ca/problem/anoisyclass)|[Source](solutions/solutions/DMOJ/anoisyclass.py)|PY3|8.0|
+[anoisyclass](https://dmoj.ca/problem/anoisyclass)|[Source](solutions/DMOJ/anoisyclass.py)|PY3|8.0|
 [aplusb](https://dmoj.ca/problem/aplusb)|[Source](solutions/DMOJ/aplusb.py)|PY3|3.0|
 [bf1](https://dmoj.ca/problem/bf1)|[Source](solutions/DMOJ/bf1.py)|PY3|4.0|
 [bf1hard](https://dmoj.ca/problem/bf1hard)|[Source](solutions/DMOJ/bf1hard.py)|PY3|5.0|
@@ -129,6 +129,7 @@ Problem|Source|Language|Difficulty|
 [vmss15c1p1](https://dmoj.ca/problem/vmss15c1p1)|[Source](solutions/DMOJ/vmss15c1p1.py)|PY3|5.0|
 [vmss7wc16c3p2](https://dmoj.ca/problem/vmss7wc16c3p2)|[Source](solutions/DMOJ/vmss7wc16c3p2.py)|PY3|5.0|
 [vmss7wc16c5p4](https://dmoj.ca/problem/vmss7wc16c5p4)|[Source](solutions/DMOJ/vmss7wc16c5p4.py)|PY2|5.0|
+
 ## Codeforces
 Problem|Source|Language|Difficulty|
 ---|---|---|---|
