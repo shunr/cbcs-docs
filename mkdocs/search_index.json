@@ -1,0 +1,14 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to Colonel By CS Docs\n\n\nIntroduction\n\n\nCompetitive programming is very fun and not hard at all to get into. It gives a great feeling of satisfaction upon answering a question correctly. We have only been practicing for half a year and are already quite experienced. If you find it interesting and put in the work, you can easily be top level competitors (CCO)\n\n\nWe all use both C++ and Python when solving problems. The two languages we would most recommend are C++ and Java. C++ has much less verbose syntax and is thus faster to write in most cases.\n\n\nThis is the order in which we learned concepts. There is no perfect order to follow, however some topics are much easier when you know others.\n\n\nImplementation (become familiar and comfortable with a language)\nRecursion\nUnderstanding basic graph theory and Breadth First Search/Depth First Search\nGreedy algorithms\nDynamic Programming\nSingle Source Shortest Path (Dijkstra\u2019s and Bellman-Ford)\nLearn about different containers (learn standard libraries, they\u2019re very powerful)\nMinimum Spanning Trees\nData Structures (Binary Indexed Tree, Segment Tree, Binary Search Tree)\nMax flow MIN CUT LEMMA WOOOOO MATHEMATICS",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome-to-colonel-by-cs-docs",
+            "text": "Introduction  Competitive programming is very fun and not hard at all to get into. It gives a great feeling of satisfaction upon answering a question correctly. We have only been practicing for half a year and are already quite experienced. If you find it interesting and put in the work, you can easily be top level competitors (CCO)  We all use both C++ and Python when solving problems. The two languages we would most recommend are C++ and Java. C++ has much less verbose syntax and is thus faster to write in most cases.  This is the order in which we learned concepts. There is no perfect order to follow, however some topics are much easier when you know others.  Implementation (become familiar and comfortable with a language)\nRecursion\nUnderstanding basic graph theory and Breadth First Search/Depth First Search\nGreedy algorithms\nDynamic Programming\nSingle Source Shortest Path (Dijkstra\u2019s and Bellman-Ford)\nLearn about different containers (learn standard libraries, they\u2019re very powerful)\nMinimum Spanning Trees\nData Structures (Binary Indexed Tree, Segment Tree, Binary Search Tree)\nMax flow MIN CUT LEMMA WOOOOO MATHEMATICS",
+            "title": "Welcome to Colonel By CS Docs"
+        }
+    ]
+}
