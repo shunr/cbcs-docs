@@ -156,16 +156,6 @@
             "title": "C++ Implementation"
         },
         {
-            "location": "/about/",
-            "text": "Hi\n\n\nWe are dank",
-            "title": "About"
-        },
-        {
-            "location": "/about/#hi",
-            "text": "We are dank",
-            "title": "Hi"
-        },
-        {
             "location": "/stl/",
             "text": "STL Containers\n\n\nBoth Java and C++ have large standard libraries with many amazing containers and functions. It is important to know your language because it can save you a lot of time coding.\n\n\nComplexity Specifications\n\n\n\n\n\n\n\n\nC++\n\n\nJava\n\n\nInsertion\n\n\nDelete\n\n\nAccess\n\n\nNotes\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nArrayList\n\n\nO(1)\n back, \nO(N)\n otherwise\n\n\nO(1)\n back \nO(N)\n otherwise\n\n\nO(1)\n\n\nResizable array\n\n\n\n\n\n\nset\n\n\nSortedSet\n\n\nO(logn)\n\n\nO(logn)\n\n\nO(logn)\n\n\nMaintains sorted order, implemented as BST\n\n\n\n\n\n\nunordered_set\n\n\nHashSet\n\n\nO(1)\n\n\nO(1)\n\n\nIt is average case \nO(1)\n to check if a set contains an element\n\n\n\n\n\n\n\n\ndeque\n\n\nDeque\n\n\nO(1)\n front or back \nO(N)\n otherwise\n\n\nO(1)\n front or back \nO(N)\n otherwise\n\n\nO(1)\n\n\nDouble ended queue\n\n\n\n\n\n\nlist\n\n\nList\n\n\nO(1)\n anywhere\n\n\nO(1)\n anywhere\n\n\nO(N)\n to get iterator\n\n\n\n\n\n\n\n\nunordered_map\n\n\nHashMap\n\n\nO(1)\n\n\nO(1)\n\n\nO(1)\n access It is average case \nO(1)\n to check if a HashMap contains a key\n\n\nSorted alternatives are \nstd::map\n and \nSortedMap\n, worse complexity",
             "title": "STL Containers"
@@ -199,6 +189,16 @@
             "location": "/solutions/#codeforces",
             "text": "Problem  Source  Language  Difficulty       810A  Source  Python 2  500.0     810B  Source  Python 3  1000.0     810C  Source  GNU C++14  1500.0",
             "title": "Codeforces"
+        },
+        {
+            "location": "/about/",
+            "text": "Hi\n\n\nWe are dank",
+            "title": "About"
+        },
+        {
+            "location": "/about/#hi",
+            "text": "We are dank",
+            "title": "Hi"
         }
     ]
 }

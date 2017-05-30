@@ -43,14 +43,6 @@
 
     
     <url>
-     <loc>/about/</loc>
-     <lastmod>2017-05-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>/stl/</loc>
      <lastmod>2017-05-30</lastmod>
      <changefreq>daily</changefreq>
@@ -60,6 +52,14 @@
     
     <url>
      <loc>/solutions/</loc>
+     <lastmod>2017-05-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/about/</loc>
      <lastmod>2017-05-30</lastmod>
      <changefreq>daily</changefreq>
     </url>

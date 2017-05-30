@@ -5,9 +5,11 @@ pages:
     - Dynamic Programming: dp.md
     - Graph Theory: graph.md
     - Ad Hoc: adhoc.md
-    - About: about.md
     - STL Containers: stl.md
     - Problem Solutions: solutions/index.md
+    - About: about.md
 theme: material
+theme_dir: theme
 markdown_extensions:
   - codehilite
+copyright: Colonel By Computer Science 2017
