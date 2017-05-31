@@ -5,9 +5,9 @@ Graph theory is a topic that shows up commonly in competitive programming.
 A graph is a sort of map. You can imagine many nodes (houses, cities, other objects) which are interconnected by edges (roads). Graph theory aims to answer questions about the paths between these nodes.
  
 ## Graph Traversal
- 
-Breadth First Search and Depth First Search are methods of traversing a graph that can be used to gather information such as if a specific node exists or to find a valid path to that node. 
- 
+
+There are three main ways to represent a graph. For now we will be focusing on the adjacency list representation, which is the easiest to work with. It uses a vector/ArrayList in order to keep track of all of the children of any node. Breadth First Search and Depth First Search are methods of traversing a graph that can be used to gather information such as if a specific node exists or to find a valid path to that node. An example detailing how to implement it can be found below in the Java code for BFS.
+
 ### Breadth First Search
 BFS visits all nodes one “layer” at a time. Starting at the root it looks at all child nodes of the root. Afterwards, for each of these children, it will perform the same action, it will check all the children of the children of the root. It is easier to understand with a picture:
  

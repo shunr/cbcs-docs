@@ -18,7 +18,7 @@ return fib(n-1) + fib(n-2) // We are calculating fib(n-2) every time
 ```
 
 ### DP approach
-A solution using dynamic programming just stores the results of the Fibonacci numbers after being computed, treating `fib(n-1)` as the subproblem.
+A solution using dynamic programming just stores the results of the Fibonacci numbers after being computed, treating `fib(n-1)` and `fib(n-2)` as the subproblems.
 
 ```cpp
 memo = {} //dictionary, map or array
