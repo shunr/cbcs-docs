@@ -413,7 +413,7 @@
 
 
 <h3 id="dp-approach">DP approach</h3>
-<p>A solution using dynamic programming just stores the results of the Fibonacci numbers after being computed, treating <code>fib(n-1)</code> as the subproblem.</p>
+<p>A solution using dynamic programming just stores the results of the Fibonacci numbers after being computed, treating <code>fib(n-1)</code> and <code>fib(n-2)</code> as the subproblems.</p>
 <div class="codehilite"><pre><span></span><span class="n">memo</span> <span class="o">=</span> <span class="p">{}</span> <span class="c1">//dictionary, map or array</span>
 
 <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="p">{</span>
