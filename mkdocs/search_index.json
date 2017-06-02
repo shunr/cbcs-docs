@@ -217,13 +217,13 @@
         },
         {
             "location": "/about/",
-            "text": "Hi\n\n\nWe are dank",
+            "text": "Hello!",
             "title": "About"
         },
         {
-            "location": "/about/#hi",
-            "text": "We are dank",
-            "title": "Hi"
+            "location": "/about/#hello",
+            "text": "",
+            "title": "Hello!"
         }
     ]
 }
