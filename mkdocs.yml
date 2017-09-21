@@ -7,6 +7,7 @@ pages:
     - Ad Hoc: adhoc.md
     - STL Containers: stl.md
     - Problem Solutions: solutions/index.md
+    - More Challenges: challenges.md
     - About: about.md
 theme: material
 theme_dir: theme
