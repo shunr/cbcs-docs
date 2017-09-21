@@ -1,8 +1,14 @@
+﻿
 # Colonel By Coding Club
-![cb logo](http://www.ocdsb.ca/sch/schoolLogo/CLB%20Logo.jpg)
 
-Welcome to the Colonel By Coding Club docs. This website is intended to help anyone get involved into competitive programming. It features descriptions and example code, useful videos and other resources and many practice problems.
- 
+![cb logo](https://upload.wikimedia.org/wikipedia/en/4/4e/Colonel_By_Crest.png)
+
+Welcome to the Colonel By Coding Club docs! This website is intended to help anyone get involved into competitive programming. It features descriptions and example code, useful videos and other resources and many practice problems.
+
+## Goals
+
+Our club is focusing on doing challenging software problems/preparing yall for CCC or ECOO :) However, feel free to search out other interesting software applications! We'll help you out as much as we can!
+
 ## Getting Started
  
 Competitive programming is very fun and not hard at all to get into. It gives a great feeling of satisfaction upon answering a question correctly. If you find it interesting and put in the work, you can easily be top level competitors. 
