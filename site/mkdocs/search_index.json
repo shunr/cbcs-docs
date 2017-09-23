@@ -212,12 +212,12 @@
         },
         {
             "location": "/about/",
-            "text": "Hi Everyone!\n\n\nSo this year, Coding Club is run by :)\n\n\nMicheal Yang, Bill Liu, Robert Chinezon, Jeff Zhang, Frank Wu\n\n\nIf anyone is seriously interested in teaching more computer science stuff next year, hit us up!",
+            "text": "Hi Everyone!\n\n\nSo this year, Coding Club is run by :)\n\n\nMicheal Yang, Bill Liu, Robert Chinezon, Jeff Zhang, Frank Wu, Karim Hourani, Denis Shapiro\n\n\nIf anyone is seriously interested in teaching more computer science stuff next year, hit us up!",
             "title": "About"
         },
         {
             "location": "/about/#hi-everyone",
-            "text": "So this year, Coding Club is run by :)  Micheal Yang, Bill Liu, Robert Chinezon, Jeff Zhang, Frank Wu  If anyone is seriously interested in teaching more computer science stuff next year, hit us up!",
+            "text": "So this year, Coding Club is run by :)  Micheal Yang, Bill Liu, Robert Chinezon, Jeff Zhang, Frank Wu, Karim Hourani, Denis Shapiro  If anyone is seriously interested in teaching more computer science stuff next year, hit us up!",
             "title": "Hi Everyone!"
         }
     ]
